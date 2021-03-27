@@ -1,318 +1,685 @@
 * {
     list-style: none;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* ========================= header start */
 header {
-    background: url(../images/bg_img.jpg);
-    padding-bottom: 152px;
+    background: url(../images/header_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
 }
 
-header nav .logo {
-    color: #fff;
-    font-weight: 700;
+header nav {
+    padding-top: 30px;
+}
+
+header nav .pizza {
+    text-decoration: none;
+    color: white;
     font-size: 24px;
+    font-weight: 700;
     text-transform: uppercase;
+
+}
+
+header nav .number {
     text-decoration: none;
-    display: block;
-    padding: 8px 18px;
-    background: #4e9f0d;
-    text-align: center;
-    border: 3px solid #62be19;
-    border-radius: 5px;
-    box-shadow: inset 0 0 5px #48920c;
-    line-height: 17px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 50px;
 }
 
-header nav .menu {
-    display: flex;
-    justify-content: flex-end;
-}
-
-header nav .menu .list .link {
-    display: block;
-    padding: 37px 6px 29px 10px;
-    color: #69cf17;
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    transition: .5s;
-}
-
-header nav .menu .list .link span {
-    color: #69cf17;
-    font-size: 20px;
-    font-weight: 300;
+header nav .button {
     display: inline-block;
-    height: 24px;
-    width: 24px;
-    background: #ffffff;
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400p;
+    font-size: 16px;
+    padding: 18px 27px;
+    background: #68bf3b;
+    border-radius: 23px;
+
 }
 
-header nav .menu .list .link:hover,
-header nav .menu .list .link.active {
-    background: rgba(79, 155, 17, .75);
-}
-
-header h1 {
-    color: #69cf17;
+header .for {
+    color: white;
     font-weight: 900;
-    font-size: 72px;
-    text-transform: uppercase;
-    margin-top: 150px;
-    line-height: 66px;
-    margin-bottom: 19px;
-}
-
-header .big_span {
-    color: #69cf17;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 25px;
-    display: block;
-    margin-bottom: 28px;
-}
-
-header .info {
-    color: #dedede;
     font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 75px;
+    text-transform: uppercase;
+    margin-top: 196px;
+    margin-bottom: 32px;
+}
+
+header .kombo {
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 72px;
+    margin-bottom: 39px;
 }
 
 header .price {
-    padding: 28px 90px;
-    background: rgba(150, 207, 23, .75);
-    border: none;
-    color: #fff;
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 45px;
-}
-
-
-/* ===================== main start */
-main {
-    background: #060002;
-    padding: 50px 0;
-}
-
-main .food ul {
-    display: flex;
-    padding-left: 0;
-    margin-bottom: 69px;
-}
-
-main .food ul li {
-    margin-right: 48px;
-}
-
-main .food ul li a {
-    text-decoration: none;
-    color: #7a7a7a;
-    font-size: 20px;
-    font-weight: 700;
-    transition: .5s;
-}
-
-main .food ul li a:hover,
-main .food ul li a.active {
-    color: #69cf17;
-}
-
-main .burgers .burger .burger_top {
-    position: relative;
-    overflow: hidden;
-}
-
-main .burgers .burger .burger_top .burger_img .burger_price {
-    display: block;
-    padding: 20px 0;
-    background: rgba(105, 207, 23, .75);
-    color: #dedede;
+    color: white;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    width: 187px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
-main .burgers .burger .burger_top .burger_img img {
-    width: 100%;
-    height: 100%;
+header .menu {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 400p;
+    font-size: 16px;
+    padding: 18px 48px 20px 43px;
+    background: #68bf3b;
+    border-radius: 23px;
+    margin-bottom: 257px;
 }
 
-main .burgers .burger .burger_top .burger_hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(105, 207, 23, .9);
-    top: 0;
-    transform: scale(0);
-    transition: .5s;
+/* ===================================main start */
+main .img_girl {
+    margin-top: 82px;
 }
 
-main .burgers .burger .burger_top .burger_hover a {
-    display: block;
-    width: 100%;
-    height: 100%;
+main .texno {
+    color: #68bf3b;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 64px;
+    margin-top: 108px;
+}
+
+main p {
+    color: #bdbdbd;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+main .main_bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #fff;
+}
+
+main .main_bottom .imzo {
+    margin-left: 37px;
+}
+
+main .main_bottom .totti {
+
+    color: #bdbdbd;
     font-weight: 700;
     font-size: 24px;
-    line-height: 24px;
-    text-decoration: none;
-}
-
-main .burgers .burger .burger_top:hover .burger_hover {
-    transform: scale(1);
-}
-
-main .burgers .burger .burger_bottom {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-main .burgers .burger .burger_bottom h2 {
-    color: #69cf17;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-main .burgers .burger .burger_bottom p {
-    color: #dedede;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 0;
-}
-
-/* ==================== unique start */
-.unique {
-    background: url(../images/section_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 50px 0 70px;
-}
-
-.unique h2 {
-    text-align: center;
-    color: #69cf17;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
-    margin-bottom: 48px;
-}
-
-.unique h2::after {
-    content: "";
-    display: block;
-    width: 200px;
-    height: 1px;
-    background: #69cf17;
-    margin: auto;
-    margin-top: 19px;
-}
-
-.unique p {
-    color: #fff;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-}
-
-/* ========================= map start */
-.map {
-    padding-top: 48px;
-    background: #fff;
-}
-
-.map h2 {
-    color: #69cf17;
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 56px;
-}
-
-.map .google {
-    min-height: 500px;
-}
-
-.map .google iframe{
-    width: 100%;
-    height: 500px;
-}
-/* ====================================footer start===================== */
-footer{
-    background: #060002;
-    padding-top: 40px;
-   
+    line-height: 36px;
 
 }
-footer .logo{
-    color: #fff;
-    font-weight: 700;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    padding: 8px 18px;
-    background: #4e9f0d;
-    text-align: center;
-    border: 3px solid #62be19;
-    border-radius: 5px;
-    box-shadow: inset 0 0 5px #48920c;
-    line-height: 17px;
-    margin-bottom: 50px;
-}
-footer .tel{
-    color: #4e9f0d;
-    font-weight: 700;
-    font-size: 24px;
-    text-decoration: none;
-}
-footer nav .footer_menu{
+
+/* ============================================section */
+section .menyu_info {
     display: flex;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.menyu .container :nth-child(1) {
+    margin-bottom: px;
+}
+
+.menyu .one_menu {
+    /* width: 1110px; */
+    padding-bottom: 50px;
+    margin: auto;
+    color: rgb(96, 192, 18, .20);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section .menyu_info .pepe {
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+section .menyu_info p {
+    color: #a6a6a6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 
 }
-footer nav  ul li a{
-    text-decoration: none;
-    margin-left: 52px;
-    color: #fff;
-    font-weight: 100;
+
+section .right .summa {
+    color: #a6a6a6;
+    margin-left: 36px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+section .right {
+    padding-top: 20px;
+}
+
+section .right span {
+    font-weight: 300;
     font-size: 18px;
+    color: #a6a6a6;
 
 }
-footer p{
+
+.right .zakaz {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #60c012;
     color: white;
-    font-weight: 100;
     font-size: 16px;
-    margin-bottom: 50px;
+    font-weight: 400;
+    padding: 18px 30px;
+    border-radius: 23px;
+
+}
+
+.girls {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.girls h2 {
+    color: #a6a6a6;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.girls p {
+    color: #a6a6a6;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+/* ================================footer start========================== */
+footer {
+    background: #060503;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+
+footer .footer_info .pizza {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+footer .footer_info .number {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+footer .footer_info .button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 400p;
+    font-size: 16px;
+    padding: 18px 27px;
+    background: #68bf3b;
+    border-radius: 23px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* ================media start============= */
+
+/* ==========================================================   lg 992 > 1119~  */
+@media(max-width: 1199px) {
+    header .for {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    header .kombo {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    header .menu {
+        margin-bottom: 80px;
+    }
+
+    header nav {
+        padding-top: 20px;
+    }
+
+    main .texno {
+        font-size: 34px;
+        margin-bottom: 35px;
+        margin-top: 50px;
+    }
+
+    main .img_girl {
+        margin-top: 25px;
+    }
+
+    .menyu .one_menu {
+        padding-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    section .right .summa {
+        margin-bottom: 22px;
+        margin-top: 15px;
+        font-size: 28px;
+    }
+
+    section .menyu_info .pepe {
+        margin-bottom: 25px;
+        margin-top: 5px;
+        font-size: 28px;
+    }
+
+    .girls {
+        margin-top: 70px;
+    }
+
+    .girls img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .girls p {
+        font-size: 13px;
+        margin-bottom: 80px;
+    }
+}
+
+/* =============================================================Md 768 > 991 */
+@media(max-width: 991px) {
+    header nav .number {
+        margin-right: 35px;
+        font-size: 22px;
+    }
+
+    header nav .button {
+        padding: 16px 24px;
+    }
+
+    header .for {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    header .kombo {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    header .price {
+        font-size: 17px;
+        margin-bottom: 45px;
+    }
+
+    header .menu {
+        margin-bottom: 55px;
+        padding: 16px 27px;
+    }
+
+    main .texno {
+        font-size: 25px;
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    main .main_bottom .totti {
+        font-size: 19px;
+    }
+
+    main p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .menyu .one_menu {
+        margin-left: 40px;
+
+    }
+
+    section .menyu_info .pepe {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    .right .zakaz {
+        padding: 15px 15px;
+        font-size: 13px;
+    }
+
+    section .right .summa {
+        padding-bottom: 0px;
+        margin-top: 24px;
+        font-size: 22px;
+    }
+
+    section .menyu_info p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .girls img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .girls h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .girls p {
+        margin-bottom: 40px;
+    }
+
+    footer .footer_info .number {
+        margin-right: 40px;
+        font-size: 22px;
+
+    }
+
+    footer .footer_info .button {
+        padding: 16px 24px;
+    }
+
+    footer p {
+        margin-top: 35px;
+    }
+
+    main .main_bottom .imzo {
+        width: 115px;
+        height: 115px;
+    }
+}
+
+/* =========================sm 576 > 767 */
+
+@media(max-width: 767px) {
+    header nav .button {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+    header nav .number {
+        margin-right: 24px;
+        font-size: 14px;
+    }
+
+    header .for {
+        margin-bottom: 17px;
+        margin-top: 18px;
+        font-size: 13px;
+    }
+
+    header .kombo {
+        margin-bottom: 22px;
+        font-size: 33px;
+    }
+
+    header .price {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+
+    header .menu {
+        margin-bottom: 50px;
+        padding: 13px 24px;
+        font-size: 14px;
+    }
+
+    main .img_girl {
+        width: 241px;
+        height: 319px;
+    }
+
+    main .texno {
+        font-size: 14px;
+        margin-top: 18px;
+        margin-bottom: 25px;
+    }
+
+    main p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    main .main_bottom .imzo {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+
+    main .main_bottom .totti {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .menyu .one_menu {
+        margin-top: 25px;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .menyu img {
+        width: 270px;
+        height: 178px;
+    }
+
+    section .menyu_info .pepe {
+        padding-top: 0;
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+
+    section .menyu_info p {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    section .right .summa {
+        margin-bottom: 15px;
+        font-size: 13px;
+        margin-top: 19px;
+    }
+
+    .right .zakaz {
+        padding: 10px 9px;
+        font-size: 10px;
+        margin-left: 14px;
+    }
+
+    .girls h2 {
+        font-size: 10px;
+    }
+
+    .girls p {
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .girls img {
+        width: 170px;
+        height: 170px;
+    }
+
+    footer .footer_info .button {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+    footer .footer_info .number {
+        margin-right: 30px;
+        font-size: 15px;
+    }
+
+    footer p {
+        margin-top: 25px;
+        font-size: 13px;
+    }
+}
+
+/* ====================xs */
+@media(max-width: 575px) {
+    header nav .pizza {
+        font-size: 20px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header nav .number {
+        font-size: 12px;
+        margin-right: 40px;
+
+    }
+
+    header nav .button {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+
+    header .for {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 8px;
+    }
+
+    header .kombo {
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    header .price {
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+
+    header .menu {
+        font-size: 12px;
+        margin-bottom: 30px;
+        padding: 10px 10px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    main .img_girl {
+        width: 200px;
+        height: 280px;
+        margin-top: 15px;
+    }
+
+    main .texno {
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    main .main_bottom .imzo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .menyu .one_menu {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .girls {
+        margin-top: 30px;
+    }
+
+    .girls p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .girls h2 {
+        font-size: 12px;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    footer .footer_info .number {
+        margin-right: 30px;
+        font-size: 11px;
+    }
+
+    footer .footer_info .pizza {
+        margin-left: 100px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .footer_info .button {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+
+    footer p {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    section .menyu_info p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .menyu img {
+        width: 170px;
+        height: 120px;
+    }
+
+    section .menyu_info .pepe {
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
 
 }
